@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#eee"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/id_ll"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/id_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/id_tab_weixin_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/tab_weixin_pressed" />
+
+            <TextView
+                android:id="@+id/wechat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="微信"
+                android:textColor="#008000" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_contact"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_tab_frd_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/tab_find_frd_normal" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="通讯录" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_find"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_tab_address_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/tab_address_normal" />
+
+        <TextView
+            android:id="@+id/find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="发现" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_my"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/id_tab_settings_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/tab_settings_normal" />
+
+        <TextView
+            android:id="@+id/my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

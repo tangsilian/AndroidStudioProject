@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tools</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="accessibility">qq抢红包外挂
+        </string>
+         <string name="accessibility2">微信抢红包外挂
+        </string>
+</resources>

@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+  
+    <item  
+        android:id="@+id/action_settings"  
+        android:icon="@drawable/ic_launcher"  
+        android:orderInCategory="100"  
+        android:showAsAction="ifRoom|withText"  
+        android:title="@string/action_settings">  
+        <menu>  
+            <item  
+                android:id="@+id/create_new"  
+                android:title="新建文件"/>  
+            <item  
+                android:id="@+id/open"  
+                android:title="打开文件"/>  
+        </menu>  
+    </item>  
+    <item  
+        android:id="@+id/sys"  
+        android:icon="@drawable/ic_launcher"  
+        android:orderInCategory="101"  
+        android:showAsAction="never"  
+        android:title="用户菜单">  
+        <menu>  
+            <group android:id="@+id/group1" >  
+                <item  
+                    android:id="@+id/load"  
+                    android:title="加载文件">  
+                </item>  
+            </group>  
+            <group android:id="@+id/group2" >  
+                <item  
+                    android:id="@+id/save"  
+                    android:title="保存文件">  
+                </item>  
+            </group>  
+        </menu>  
+    </item>  
+  
+</menu>  

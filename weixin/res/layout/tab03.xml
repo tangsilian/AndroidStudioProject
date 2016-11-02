@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="黄金的实时价格："
+        android:textSize="19dp"
+        android:textStyle="bold" />
+ <TextView
+     android:id="@+id/gold"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/search_gold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询黄金的价格" />
+
+    <Button
+        android:id="@+id/pengyouquan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享到朋友圈" />
+
+</LinearLayout>
